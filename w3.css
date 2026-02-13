@@ -1,0 +1,293 @@
+body{
+    object-fit: cover contain;
+    width: 100%;
+}
+
+.one{
+    display: flex;
+    vertical-align: top;
+    
+}
+
+.waah{
+    display: flex;
+    margin-top: 10px;
+    background-color: white;
+}
+
+.a{
+    display: flex;
+}
+
+p{
+    margin-right:20px ;
+    font-size: x-large;
+}
+
+
+.logo img {
+    width : 50px;
+    height: 47px;
+    object-fit:contain cover ;
+    margin-right: 20px;
+
+}
+
+.search input{
+    border-radius: 400px;
+    padding: 10px 10px ;
+    width :120px;
+    margin-top: 10px;
+     font-size: large;
+   
+}
+
+ input:placeholder-shown {
+
+    font-style: italic;
+    
+     
+
+}
+
+.menu {
+  background-color: white;
+  border: none;
+  margin-right: 20px;
+  font-size: large;
+  
+}
+.references{
+  background-color: white;
+  border: none;
+  margin-right: 20px;
+   font-size: large;
+}
+
+.certificates{
+     background-color: white;
+  border: none;
+  margin-right: 20px;
+   font-size: large;
+}
+
+.exercises{
+     background-color: white;
+  border: none;
+  margin-right: 20px;
+   font-size: large;
+}
+
+
+.dots{
+    margin-left: 40px;
+    font-weight: bold;
+    margin-top: 13px;
+    font-size: xx-large;
+}
+
+.spaces{
+  margin-left: 60px;
+  border:none ;
+  background-color:white;
+  font-weight: bold;
+  font-size: larger;
+  padding-right: 30px;
+   padding-left: 30px;
+  height: 50px;
+ margin-bottom: 25px;
+
+ 
+  
+  
+}
+.spaces:hover{
+    background-color: grey;
+    border-radius: 400px;
+    opacity: 0.1;
+    font-weight: bold;
+ 
+    margin-right: 15px;
+  
+   
+}
+ .black{
+    background-color: black;
+   
+     display: flex; /* arrange buttons in a row */
+  gap: 10px;     /* space between buttons */
+  overflow-x: auto; /* allow horizontal scroll */
+  white-space: nowrap; /* keep buttons in one line */
+  padding: 10px;
+  scroll-behavior: smooth; /* smooth scroll if you use JS scrolling */
+}
+  .black::-webkit-scrollbar {
+  display: none;
+}
+   
+  
+ 
+
+ button{
+    margin-right: 30px;
+    font-size: x-large;
+    color: white;
+    background-color: black;
+     border: none;
+      padding-top: 20px;
+      padding-bottom: 20px;
+ }
+
+ .button2:hover{
+   background-color: blue;
+ }
+
+ .two{
+   background-color: black;
+   
+    width: 100%;        /* parent container full width */
+  overflow: hidden;   /* hide extra content outside the div */
+ }
+
+ h1{
+    font-size: 80px;
+   text-align: center;
+   color: white;
+ }
+
+ h2{
+    color: yellow;
+    margin-left: 530px;
+   
+ }
+
+ .three{
+    background-color: black;
+    margin-top: 1px;
+ }
+
+ .whole{
+    background-color: black;
+    width: 2400px;
+ }
+
+ button.yees{
+  background-color: white;
+  color: black;
+  margin-left: 70px;
+ }
+
+ button.yees:hover{
+    background-color: grey;
+    opacity: 0.1;
+    border-radius: 50px;
+ }
+.search-box {
+    margin-top: 30px;
+    display: inline-flex;
+    margin-left: 480px;
+}
+
+.search-box input {
+    width: 500px;
+    padding: 15px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    font-size: 16px;
+    outline: none;
+    font-size: x-large;
+}
+.search-box button {
+    padding: 15px 25px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 18px;
+    border-radius: 0 30px 30px 0;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background-color: #039862;
+}
+
+.sure{
+  margin-left: 650px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+ 
+}
+a{
+  color: white;
+  font-size: x-large;
+}
+
+a:hover{
+color:yellow;
+}
+
+.wave svg {
+    display: block;
+    width: 100%;
+    height: 120px;
+}
+
+.light-section {
+    background-color: #d9eee1;
+   display:flex;
+}
+
+.pag button{
+
+display: grid;
+margin-bottom: 20px;
+width: 300px;
+border-radius: 300px;
+
+}
+
+.gre{
+  background-color: green;
+}
+.bla{
+  background-color: black;
+}
+.yello{
+  background-color: yellow;
+}
+.pin{
+  background-color: pink;
+}
+
+.pag{
+  margin-left: 350px;
+}
+
+.pag h1{
+ color: black;
+ font-weight: bold;
+ 
+}
+
+.example{
+  margin-left: 300px;
+  background-color: rgb(246, 220, 220);
+  padding: 10px 10px 50px 10px;
+
+}
+
+.eg{
+  background-color: white;
+  padding:20px 20px 20px 20px ;
+}
+
+.eg p{
+  
+}
+
+.try{
+  background-color: green;
+  border-radius: 40px;
+  padding:10px 30px 10px 30px;
+ margin-left: 40px;
+}
